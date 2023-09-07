@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 20px;
+    background: whitesmoke;
+   
+}
+img {
+    height: 100px;
+}
+
+.productsWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.btn {
+    border: none;
+    outline: none;
+    background: #764abc;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #513282;
+}
+
+
+.cartCount {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+
+/* cart-card related styling */
+.cartCard {
+    display: flex; /* Make the container a flex container */
+    align-items: center;
+    justify-content: space-between;
+    background: #f7f7f7;
+    margin-bottom: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .cartCard img {
+    max-width: 100px;
+    margin-right: 16px;
+  }
+  
+  /* Use flex to align title and price side by side */
+  .cartCard .title-price {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  
+  /* Style for the title */
+  .cartCard h4 {
+    margin: 0;
+  }
+  
+  /* Style for the price */
+  .cartCard h5 {
+    margin: 0;
+    margin-left: 8px; /* Add some spacing between title and price */
+  }
+  
