@@ -696,4 +696,98 @@ img {
   }
 }
 
+.Login {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.Login .heading {
+  text-align: center;
+}
+
+.Login .Login-box {
+  border: 1px solid #000;
+  border-radius: 4px;
+  min-width: 400px;
+  padding: 40px;
+}
+
+.Login label, .Login input {
+  width: 100%;
+  margin-block: 8px;
+  display: block;
+}
+
+.Login label {
+  font-weight: bold;
+}
+
+.Login input {
+  padding: 8px 16px;
+}
+
+.Login .Submit {
+  color: #fff;
+  background-color: #6262ec;
+  border: none;
+  margin-top: 16px;
+}
+
+.Login .Submit:hover {
+  background-color: #060676;
+}
+
+.Login .Sign-button {
+  text-align: center;
+}
+
+.SignUp {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.SignUp .heading {
+  text-align: center;
+}
+
+.SignUp .SignUp-box {
+  border: 1px solid #000;
+  border-radius: 4px;
+  min-width: 400px;
+  padding: 40px;
+}
+
+.SignUp label, .SignUp input {
+  width: 100%;
+  margin-block: 8px;
+  display: block;
+}
+
+.SignUp label {
+  font-weight: bold;
+}
+
+.SignUp input {
+  padding: 8px 16px;
+}
+
+.SignUp .Submit {
+  color: #fff;
+  background-color: #6262ec;
+  border: none;
+  margin-top: 16px;
+}
+
+.SignUp .Submit:hover {
+  background-color: #060676;
+}
+
+.SignUp .Login-button {
+  text-align: center;
+}
+
 /*# sourceMappingURL=index.61d3354a.css.map */
